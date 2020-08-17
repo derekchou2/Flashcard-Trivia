@@ -2,13 +2,18 @@ body {
     background-color: #C8D0D2;
 }
 
+.card-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
 
 
 .card {
     display: flex;
     background-color: white;
-    height: 300px;
-    width: 300px;
+    height: 150px;
     justify-content: center;
     align-items: center;
     position: relative;
