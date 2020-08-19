@@ -78,6 +78,7 @@ body {
 
 .card .front {
     left: 0;
+    font-weight: bold;
 }
 
 .card .back {
